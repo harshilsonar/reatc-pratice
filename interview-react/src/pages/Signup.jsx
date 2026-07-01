@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { useNavigate } from "react-router-dom";
 const Signup = () => {
   const [user, setuser] = useState({
     name: "",
@@ -8,12 +8,15 @@ const Signup = () => {
   });
 
   // Handle Input Change
- const handlechange =()=>{
-   setuser({
-    ...user
-    [e.target.name].e.target.value,
-   });
- };
+const handlechange = (e) => {
+  setuser({
+    ...user,
+    [e.target.name]: e.target.value,
+  });
+};
+
+const navigate =useNavigate() ;
+
 
  const handlesubmit = (e) => {
     e.preventdefault()
@@ -24,8 +27,11 @@ const Signup = () => {
         email:"",
         password:""
     });
+     navigate("/");
+    
  };
   
+ 
 
   return (
     <div className="min-h-screen bg-gray-100 flex justify-center items-center">

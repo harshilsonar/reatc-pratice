@@ -1,1 +1,81 @@
 @import "tailwindcss";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  height: 80px;
+  width: 100%;
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 70px;
+  border-bottom: 1px solid #ececec;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.logo h2 {
+  color: #b8860b;
+  font-size: 28px;
+  font-family: Georgia, serif;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 35px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #222;
+  font-size: 17px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #b8860b;
+}
+
+.nav-icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav-icons button {
+  background: none;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.signin-btn {
+  background: #b8860b !important;
+  color: white;
+  padding: 10px 22px;
+  border-radius: 30px;
+  font-size: 16px !important;
+}
+
+.signin-btn:hover {
+  background: #8b6508 !important;
+}
