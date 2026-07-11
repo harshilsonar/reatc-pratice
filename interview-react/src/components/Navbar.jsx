@@ -125,13 +125,13 @@ function Navbar() {
 
           </div>
 
-          <div className="px-6 pb-6">
+           <div className="px-6 pb-6">
             <Link to="/signin">
-              <button className="w-full bg-yellow-700 text-white py-3 rounded-full hover:bg-yellow-800 transition">
+              <button className="w-full  text-white  rounded-full hover:bg-yellow-800 transition">
                 Sign In
-              </button>
-            </Link>
-          </div>
+              </button> 
+             </Link>
+          </div>   
 
         </div>
       </div>
