@@ -4,3 +4,105 @@ body {
   margin: 0;
   padding: 0;
 }
+@keyframes logoReveal {
+  0% {
+    opacity: 0;
+    transform: scale(0.7);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.08);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.logo-loader {
+  animation: logoReveal 1.5s ease-in-out infinite;
+}
+
+/* Luxury Card */
+
+.luxury-card{
+    background:rgba(255,255,255,.88);
+    backdrop-filter:blur(12px);
+    border-radius:35px;
+    border:1px solid #ece2ca;
+    overflow:hidden;
+    transition:.5s;
+    position:relative;
+    animation:floating 5s ease-in-out infinite;
+}
+
+.luxury-card:hover{
+    transform:translateY(-12px);
+    border-color:#d4af37;
+    box-shadow:0 25px 60px rgba(212,175,55,.28);
+}
+
+/* Shine Effect */
+
+.shine{
+    position:absolute;
+    top:0;
+    left:-140%;
+    width:55%;
+    height:100%;
+    background:linear-gradient(
+        90deg,
+        transparent,
+        rgba(255,255,255,.8),
+        transparent
+    );
+    transform:skewX(-25deg);
+}
+
+.group:hover .shine{
+    left:160%;
+    transition:1.2s;
+}
+
+/* Floating Animation */
+
+@keyframes floating{
+
+0%{
+transform:translateY(0px);
+}
+
+50%{
+transform:translateY(-8px);
+}
+
+100%{
+transform:translateY(0px);
+}
+
+}
+@keyframes popup {
+
+    0% {
+        opacity: 0;
+        transform: scale(0.8) translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+
+}
+
+@keyframes progress {
+
+    from {
+        width: 100%;
+    }
+
+    to {
+        width: 0%;
+    }
+
+}

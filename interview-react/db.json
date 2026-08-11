@@ -1,7 +1,7 @@
 {
-  "fingerRings": [
+  "goldjwellerey": [
     {
-      "id": 1,
+      "id": "1",
       "href": "https://www.malabargoldanddiamonds.com/in/pan-india/en/product.html?sku=FR-103122&barcode=100020731473",
       "sku": "FR-103122",
       "barcode": "100020731473",
@@ -13,7 +13,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": "2",
       "href": "https://www.malabargoldanddiamonds.com/in/pan-india/en/product.html?sku=FR-022322&barcode=100021493317",
       "sku": "FR-022322",
       "barcode": "100021493317",
@@ -29,7 +29,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": "3",
       "href": "https://www.malabargoldanddiamonds.com/in/pan-india/en/product.html?sku=FR-361441&barcode=100027882145",
       "sku": "FR-361441",
       "barcode": "100027882145",
@@ -47,7 +47,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": "4",
       "href": "https://www.malabargoldanddiamonds.com/in/pan-india/en/product.html?sku=FR-084668&barcode=100033014003",
       "sku": "FR-084668",
       "barcode": "100033014003",
@@ -58,8 +58,8 @@
         "https://s7ap1.scene7.com/is/image/malabargroup/mgdsite/products/permanent/india/gold%20ornaments/finger%20ring/FR-084668/FRCOS10127-0001/FRCOS10127-0001-1.Jpg?fmt=webp-alpha&wid=400&hei=400"
       ]
     },
-     {
-      "id": 5,
+    {
+      "id": "5",
       "href": "https://www.malabargoldanddiamonds.com/in/pan-india/en/product.html?sku=FR-016853&barcode=570000439115",
       "title": "Good Vibes Gold Finger Ring",
       "price": "₹ 56,763",
@@ -75,7 +75,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": "6",
       "href": "https://www.malabargoldanddiamonds.com/in/pan-india/en/product.html?sku=FR-277850&barcode=100032389774",
       "title": "Florid Gold Finger Ring",
       "price": "₹ 56,853",
@@ -91,7 +91,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": "7",
       "href": "https://www.malabargoldanddiamonds.com/in/pan-india/en/product.html?sku=FR-041097&barcode=110002454585",
       "title": "Porcelain Filigreed Mine Diamond Finger Ring",
       "price": "₹ 59,723",
@@ -107,7 +107,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": "8",
       "href": "https://www.malabargoldanddiamonds.com/in/pan-india/en/product.html?sku=FR-195960&barcode=900000439736",
       "title": "Silken Navy Mine Diamond Finger Ring",
       "price": "₹ 59,939",
@@ -123,7 +123,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": "9",
       "href": "https://www.malabargoldanddiamonds.com/in/pan-india/en/product.html?sku=FR-201626&barcode=900000439750",
       "title": "Bold Diamond Finger Ring",
       "price": "₹ 62,169",
@@ -139,7 +139,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": "10",
       "href": "https://www.malabargoldanddiamonds.com/in/pan-india/en/product.html?sku=FR-206269&barcode=110003580549",
       "title": "Pretty Diamond Finger Ring",
       "price": "₹ 63,565",
@@ -157,7 +157,7 @@
   ],
   "necklaces": [
     {
-      "id": 11,
+      "id": "11",
       "href": "https://www.indriya.com/jewellery-products/elviora-gold-short-necklace-gehrl01-ddnc038",
       "images": [
         "https://s7ap1.scene7.com/is/image/noveljewelsprod/GEHRL01-DDNC038"
@@ -166,7 +166,7 @@
       "price": "₹66,242.00"
     },
     {
-      "id": 12,
+      "id": "12",
       "href": "https://www.indriya.com/jewellery-products/ritvini-polki-choker-oeaya80-annc964",
       "images": [
         "https://s7ap1.scene7.com/is/image/noveljewelsprod/OEAYA80-ANNC964"
@@ -175,7 +175,7 @@
       "price": "₹22,56,266.00"
     },
     {
-      "id": 13,
+      "id": "13",
       "href": "https://www.indriya.com/jewellery-products/vindhya-blossom-diamond-necklace-dejrl59-ddnb538",
       "images": [
         "https://s7ap1.scene7.com/is/image/noveljewelsprod/DEJRL59-DDNB538"
@@ -184,7 +184,7 @@
       "price": "₹14,75,743.00"
     },
     {
-      "id": 14,
+      "id": "14",
       "href": "https://www.indriya.com/jewellery-products/melany-diamond-necklace-degwl50-ddnb299",
       "images": [
         "https://s7ap1.scene7.com/is/image/noveljewelsprod/DEGWL50-DDNB299"
@@ -193,7 +193,7 @@
       "price": "₹65,779.00"
     },
     {
-      "id": 15,
+      "id": "15",
       "href": "https://www.indriya.com/jewellery-products/yuvranta-gold-long-necklace-gegya00-dxnb803",
       "images": [
         "https://s7ap1.scene7.com/is/image/noveljewelsprod/GEGYA00-DXNB803"
@@ -202,7 +202,7 @@
       "price": "₹3,83,294.00"
     },
     {
-      "id": 16,
+      "id": "16",
       "href": "https://www.indriya.com/jewellery-products/vinaya-gold-necklace-geyya00-dxna804",
       "images": [
         "https://s7ap1.scene7.com/is/image/noveljewelsprod/GEYYA00-DXNA804"
@@ -211,7 +211,7 @@
       "price": "₹1,98,528.00"
     },
     {
-      "id": 17,
+      "id": "17",
       "href": "https://www.indriya.com/jewellery-products/tavrina-gold-floral-necklace-geyya00-dxna805",
       "images": [
         "https://s7ap1.scene7.com/is/image/noveljewelsprod/GEYYA00-DXNA805"
@@ -220,7 +220,7 @@
       "price": "₹1,93,428.00"
     },
     {
-      "id": 18,
+      "id": "18",
       "href": "https://www.indriya.com/jewellery-products/tilvara-gold-necklace-geyya00-dxna802",
       "images": [
         "https://s7ap1.scene7.com/is/image/noveljewelsprod/GEYYA00-DXNA802"
@@ -229,7 +229,7 @@
       "price": "₹1,42,712.00"
     },
     {
-      "id": 19,
+      "id": "19",
       "href": "https://www.indriya.com/jewellery-products/bhavitra-gold-long-necklace-gegya00-dxnb802",
       "images": [
         "https://s7ap1.scene7.com/is/image/noveljewelsprod/GEGYA00-DXNB802"
@@ -238,7 +238,7 @@
       "price": "₹3,89,441.00"
     },
     {
-      "id": 20,
+      "id": "20",
       "href": "https://www.indriya.com/jewellery-products/qevrina-diamond-necklet-tedrl40-aenn304",
       "images": [
         "https://s7ap1.scene7.com/is/image/noveljewelsprod/TEDRL40-AENN304"
@@ -247,7 +247,7 @@
       "price": "₹1,02,250.00"
     },
     {
-      "id": 21,
+      "id": "21",
       "href": "https://www.indriya.com/jewellery-products/janya-diamond-necklace-tedra40-aend114",
       "images": [
         "https://s7ap1.scene7.com/is/image/noveljewelsprod/TEDRA40-AEND114"
@@ -256,7 +256,7 @@
       "price": "₹75,035.00"
     },
     {
-      "id": 22,
+      "id": "22",
       "href": "https://www.indriya.com/jewellery-products/tanvee-gold-short-necklace-keaya80-acns862",
       "images": [
         "https://s7ap1.scene7.com/is/image/noveljewelsprod/KEAYA80-ACNS862"
@@ -265,7 +265,7 @@
       "price": "₹26,12,042.00"
     },
     {
-      "id": 23,
+      "id": "23",
       "href": "https://www.indriya.com/jewellery-products/aavya-polki-short-necklace-oeeylm2-apns314",
       "images": [
         "https://s7ap1.scene7.com/is/image/noveljewelsprod/OEEYLM2-APNS314"
@@ -274,7 +274,7 @@
       "price": "₹7,80,075.00"
     },
     {
-      "id": 24,
+      "id": "24",
       "href": "https://www.indriya.com/jewellery-products/trivanya-polki-long-necklace-oeeya80-apnl316",
       "images": [
         "https://s7ap1.scene7.com/is/image/noveljewelsprod/OEEYA80-APNL316"
@@ -283,7 +283,7 @@
       "price": "₹3,41,898.00"
     },
     {
-      "id": 25,
+      "id": "25",
       "href": "https://www.indriya.com/jewellery-products/eshlira-polki-choker-necklace-oeayj80-asnc605",
       "images": [
         "https://s7ap1.scene7.com/is/image/noveljewelsprod/OEAYJ80-ASNC605"
@@ -292,7 +292,7 @@
       "price": "₹18,41,399.00"
     },
     {
-      "id": 26,
+      "id": "26",
       "href": "https://www.indriya.com/jewellery-products/anvira-polki-short-necklace-oeaya80-anns955",
       "images": [
         "https://s7ap1.scene7.com/is/image/noveljewelsprod/OEAYA80-ANNS955"
@@ -301,7 +301,7 @@
       "price": "₹33,73,163.00"
     },
     {
-      "id": 27,
+      "id": "27",
       "href": "https://www.indriya.com/jewellery-products/erisha-polki-bridal-necklace-oeaya80-acns850",
       "images": [
         "https://s7ap1.scene7.com/is/image/noveljewelsprod/OEAYA80-ACNS850"
@@ -310,7 +310,7 @@
       "price": "₹25,93,110.00"
     },
     {
-      "id": 28,
+      "id": "28",
       "href": "https://www.indriya.com/jewellery-products/saumya-kala-gold-necklace-geyya01-dhna019",
       "images": [
         "https://s7ap1.scene7.com/is/image/noveljewelsprod/GEYYA01-DHNA019"
@@ -319,7 +319,7 @@
       "price": "₹4,56,868.00"
     },
     {
-      "id": 29,
+      "id": "29",
       "href": "https://www.indriya.com/jewellery-products/winter-petal-diamond-necklace-debwl50-ddnb313",
       "images": [
         "https://s7ap1.scene7.com/is/image/noveljewelsprod/DEBWL50-DDNB313"
@@ -327,6 +327,167 @@
       "title": "Winter Petal Diamond Necklace",
       "price": ""
     }
+  ],
+  "earrings": [
+    {
+      "id": "30",
+      "href": "https://www.malabargoldanddiamonds.com/in/pan-india/en/product.html?sku=ER-192769&barcode=110002192769",
+      "images": [
+        "https://s7ap1.scene7.com/is/image/malabargroup/mgdsite/products/permanent/india/gold%20ornaments/earrings/ER-192769/ERDZL41422-0002/ERDZL41422-0002-1.JPG?fmt=webp-alpha&wid=400&hei=400",
+        "https://s7ap1.scene7.com/is/image/malabargroup/mgdsite/products/permanent/india/gold%20ornaments/earrings/ER-192769/ERDZL41422-0002/ERDZL41422-0002-2.jpg?fmt=webp-alpha&wid=400&hei=400",
+        "https://s7ap1.scene7.com/is/image/malabargroup/mgdsite/products/permanent/india/gold%20ornaments/earrings/ER-192769/ERDZL41422-0002/ERDZL41422-0002-3.jpg?fmt=webp-alpha&wid=400&hei=400"
+      ],
+      "title": "Oomph GOLD EARRINGS",
+      "price": "₹ 60,627"
+    },
+    {
+      "id": "31",
+      "href": "https://www.malabargoldanddiamonds.com/in/pan-india/en/product.html?sku=ER-032563&barcode=110002234322",
+      "images": [
+        "https://s7ap1.scene7.com/is/image/malabargroup/mgdsite/products/permanent/india/diamond%20ornaments/earrings/ER-032563/ERGEN22459-0008/ERGEN22459-0008-1.Jpg?fmt=webp-alpha&wid=400&hei=400"
+      ],
+      "title": "Plush Diamond Earrings",
+      "price": "₹ 89,272"
+    },
+    {
+      "id": "32",
+      "href": "https://www.malabargoldanddiamonds.com/in/pan-india/en/product.html?sku=ER-014537&barcode=110002082354",
+      "images": [
+        "https://s7ap1.scene7.com/is/image/malabargroup/mgdsite/products/permanent/india/diamond%20ornaments/earrings/ER-014537/ERGEN22987-0008/ERGEN22987-0008-1.Jpg?fmt=webp-alpha&wid=400&hei=400"
+      ],
+      "title": "Pret Tear Drop Diamond Studded Earrings",
+      "price": "₹ 25,954"
+    },
+    {
+      "id": "33",
+      "href": "https://www.malabargoldanddiamonds.com/in/pan-india/en/product.html?sku=ER-519754&barcode=110003611638",
+      "images": [
+        "https://s7ap1.scene7.com/is/image/malabargroup/mgdsite/products/permanent/india/diamond%20ornaments/earrings/ER-519754/ER-12857-1/ER-12857-1-1.jpg?fmt=webp-alpha&wid=400&hei=400"
+      ],
+      "title": "Glossy Nuwa Generic Ear Cuffs Mine Diamond Earrings",
+      "price": "₹ 3,18,091"
+    },
+    {
+      "id": "34",
+      "href": "https://www.malabargoldanddiamonds.com/in/pan-india/en/product.html?sku=NE-528781&barcode=110003632322",
+      "images": [
+        "https://s7ap1.scene7.com/is/image/malabargroup/mgdsite/products/permanent/india/diamond%20ornaments/necklace%20earrings/NE-528781/ERGEN9145GN-1/ERGEN9145GN-1-1.jpg?fmt=webp-alpha&wid=400&hei=400"
+      ],
+      "title": "Sophisticated Nuwa Generic Long Earrings Mine Diamond Necklace Earrings",
+      "price": "₹ 4,53,148"
+    },
+    {
+      "id": "35",
+      "href": "https://www.malabargoldanddiamonds.com/in/pan-india/en/product.html?sku=MT-007296&barcode=100025566896",
+      "images": [
+        "https://s7ap1.scene7.com/is/image/malabargroup/mgdsite/products/permanent/india/gold%20ornaments/matty/MT-007296/MTNOB10368-0001/MTNOB10368-0001-2.Jpg?fmt=webp-alpha&wid=400&hei=400",
+        "https://s7ap1.scene7.com/is/image/malabargroup/mgdsite/products/permanent/india/gold%20ornaments/matty/MT-007296/MTNOB10368-0001/MTNOB10368-0001-3.Jpg?fmt=webp-alpha&wid=400&hei=400"
+      ],
+      "title": "Lovely Gold Matilu For Ears",
+      "price": "₹ 90,975"
+    },
+    {
+      "id": "36",
+      "href": "https://www.malabargoldanddiamonds.com/in/pan-india/en/product.html?sku=MT-001143&barcode=100029654841",
+      "images": [
+        "https://s7ap1.scene7.com/is/image/malabargroup/mgdsite/products/permanent/india/gold%20ornaments/matty/MT-001143/MTNOB10183-0001/MTNOB10183-0001-1.Jpg?fmt=webp-alpha&wid=400&hei=400",
+        "https://s7ap1.scene7.com/is/image/malabargroup/mgdsite/products/permanent/india/gold%20ornaments/matty/MT-001143/MTNOB10183-0001/MTNOB10183-0001-2.Jpg?fmt=webp-alpha&wid=400&hei=400"
+      ],
+      "title": "Whimsical Plain Gold Matilu For Ears",
+      "price": "₹ 33,258"
+    },
+    {
+      "id": "37",
+      "href": "https://www.malabargoldanddiamonds.com/in/pan-india/en/product.html?sku=MT-007261&barcode=100031885653",
+      "images": [
+        "https://s7ap1.scene7.com/is/image/malabargroup/mgdsite/products/permanent/india/gold%20ornaments/matty/MT-007261/MTNOB10297-0001/MTNOB10297-0001-1.Jpg?fmt=webp-alpha&wid=400&hei=400",
+        "https://s7ap1.scene7.com/is/image/malabargroup/mgdsite/products/permanent/india/gold%20ornaments/matty/MT-007261/MTNOB10297-0001/MTNOB10297-0001-3.Jpg?fmt=webp-alpha&wid=400&hei=400"
+      ],
+      "title": "Captivating Matilu For Ears In Gold",
+      "price": "₹ 57,365"
+    },
+    {
+      "id": "38",
+      "href": "https://www.malabargoldanddiamonds.com/in/pan-india/en/product.html?sku=MT-001167&barcode=100031885650",
+      "images": [
+        "https://s7ap1.scene7.com/is/image/malabargroup/mgdsite/products/permanent/india/gold%20ornaments/matty/MT-001167/MTNOB10242-0001/MTNOB10242-0001-1.Jpg?fmt=webp-alpha&wid=400&hei=400",
+        "https://s7ap1.scene7.com/is/image/malabargroup/mgdsite/products/permanent/india/gold%20ornaments/matty/MT-001167/MTNOB10242-0001/MTNOB10242-0001-2.Jpg?fmt=webp-alpha&wid=400&hei=400",
+        "https://s7ap1.scene7.com/is/image/malabargroup/mgdsite/products/permanent/india/gold%20ornaments/matty/MT-001167/MTNOB10242-0001/MTNOB10242-0001-3.Jpg?fmt=webp-alpha&wid=400&hei=400"
+      ],
+      "title": "Beautiful Plain Gold Matilu For Ears",
+      "price": "₹ 81,648"
+    }
+  ],
+  "bracelets": [
+    {
+      "id": "39",
+      "href": "https://www.candere.com/golden-innings-diamond-bracelet.html",
+      "images": [
+        "https://www.candere.com/media/catalog/product/K/C/KC08457YG_1_1.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360"
+      ],
+      "title": "Golden Innings Diamond Bracelet",
+      "price": "₹73,294",
+      "oldPrice": "₹83,836",
+      "offer": "25% Off on Stone Price"
+    },
+    {
+      "id": "40",
+      "href": "https://www.candere.com/vyuha-diamond-bracelet.html",
+      "images": [
+        "https://www.candere.com/media/catalog/product/K/C/KC08461YG_1_2.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360"
+      ],
+      "title": "Vyuha Diamond Bracelet",
+      "price": "₹99,728",
+      "oldPrice": "₹112,774",
+      "offer": "25% Off on Stone Price"
+    },
+    {
+      "id": "41",
+      "href": "https://www.candere.com/orlix-diamond-oval-bracelet.html",
+      "images": [
+        "https://www.candere.com/media/catalog/product/K/C/KC08105YG_4_3.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360"
+      ],
+      "title": "Orlix Diamond Oval Bracelet",
+      "price": "₹66,581",
+      "oldPrice": "₹79,761",
+      "offer": "25% Off on Stone Price"
+    },
+    {
+      "id": "42",
+      "href": "https://www.candere.com/nythera-diamond-oval-bracelet.html",
+      "images": [
+        "https://www.candere.com/media/catalog/product/K/C/KC08104YG_4_3.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360"
+      ],
+      "title": "Nythera Diamond Oval Bracelet",
+      "price": "₹71,505",
+      "oldPrice": "₹86,505",
+      "offer": "25% Off on Stone Price"
+    },
+    {
+      "id": "43",
+      "href": "https://www.candere.com/zyraen-diamond-oval-bracelet.html",
+      "images": [
+        "https://www.candere.com/media/catalog/product/K/C/KC08103YG_4_3.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360"
+      ],
+      "title": "Zyraen Diamond Oval Bracelet",
+      "price": "₹67,045",
+      "oldPrice": "₹80,637",
+      "offer": "25% Off on Stone Price"
+    }
+  ],
+  "users": [
+    {
+      "id": "5494",
+      "name": "Harshil Sonar",
+      "email": "sonarhet8426@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "119b",
+      "name": "Harsh Sonar",
+      "email": "sonarharsh84@gmail.com",
+      "password": "1234567"
+    }
+    
   ]
-
 }

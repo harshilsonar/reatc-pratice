@@ -1,10 +1,9 @@
+import axios from "axios";
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import axios from "axios";
 
-const Signup = () => {
+const Login = () => {
   const [user, setUser] = useState({
-    name: "",
     email: "",
     password: "",
   });
@@ -20,25 +19,25 @@ const Signup = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-     if(!user.email|| !user.name || user.password)
-     {
-        alert("Please fill all the details");
-        return;
-     }
-    axios.post("http://localhost:3000/users", user)
-      .then(() => {
-        alert("Account Created Successfully");
 
-        setUser({
-          name: "",
-          email: "",
-          password: "",
+    axios.get("http://localhost:3000/users")
+      .then((res) => {
+
+        const foundUser = res.data.find((item) => {
+          return (
+            item.email === user.email &&
+            item.password === user.password
+          );
         });
-        navigate("/");
 
-      })
-      .catch(() => {
-        alert("Something went wrong");
+        if (foundUser) {
+          alert("Login Successful");
+          localStorage.setItem("isAuth", "true");
+          navigate("/");
+        } else {
+          alert("Invalid Email or Password");
+        }
+
       });
   };
 
@@ -96,22 +95,6 @@ const Signup = () => {
               onSubmit={handleSubmit}
               className="w-full max-w-lg mx-auto flex flex-col gap-8 mt-8"
             >
-              {/* Full Name */}
-              <div className="flex flex-col gap-3">
-                <label className="text-gray-700 font-medium text-sm tracking-wide " style={{ marginLeft: "50px" }}>
-                  Full Name
-                </label>
-
-                <input
-                  type="text"
-                  name="name"
-                  value={user.name}
-                  onChange={handleChange}
-                  required
-                  placeholder="Enter your full name"
-                  className="w-full h-10 border border-gray-300 bg-white px-5 text-base shadow-sm focus:border-black focus:ring-2 focus:ring-gray-200 outline-none transition-all duration-300"
-                  style={{ marginLeft: "50px" }} />
-              </div>
 
               {/* Email */}
               <div className="flex flex-col gap-3">
@@ -124,7 +107,6 @@ const Signup = () => {
                   name="email"
                   value={user.email}
                   onChange={handleChange}
-                  required
                   placeholder="Enter your email"
                   className="w-full h-10  border border-gray-300 bg-white px-5 text-base shadow-sm focus:border-black focus:ring-2 focus:ring-gray-200 outline-none transition-all duration-300"
                   style={{ marginLeft: "50px" }} />
@@ -141,7 +123,6 @@ const Signup = () => {
                   name="password"
                   value={user.password}
                   onChange={handleChange}
-                  required
                   placeholder="Enter your password"
                   className="w-full h-10  border border-gray-300 bg-white px-5 text-base shadow-sm focus:border-black focus:ring-2 focus:ring-gray-200 outline-none transition-all duration-300"
                   style={{ marginLeft: "50px" }} />
@@ -151,7 +132,6 @@ const Signup = () => {
               <div className="flex items-start gap-3">
                 <input
                   type="checkbox"
-                  required
                   className="w-5 h-5 mt-1 accent-black cursor-pointer"
                   style={{ marginLeft: "50px" }} />
 
@@ -172,19 +152,19 @@ const Signup = () => {
                 type="submit"
                 className="w-full h-14 rounded-xl bg-black text-white text-lg font-semibold tracking-wide hover:bg-gray-900 transition-all duration-300 shadow-lg"
                 style={{ marginLeft: "50px" }}>
-                Create Account
+                Welcome Back
               </button>
 
               {/* Login */}
               <div className="border-t border-gray-300 pt-6 text-center" style={{ marginLeft: "50px" }}>
                 <p className="text-gray-600">
-                  Already have an account?
+                  Create New Account?
 
                   <span
-                    onClick={() => navigate("/login")}
+                    onClick={() => navigate("/signin")}
                     className="ml-2 font-semibold text-black cursor-pointer hover:underline"
                   >
-                    Login
+                    Register
                   </span>
                 </p>
               </div>
@@ -199,4 +179,4 @@ const Signup = () => {
   );
 };
 
-export default Signup;
+export default Login;

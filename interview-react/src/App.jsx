@@ -7,6 +7,7 @@ import Navbar from './components/Navbar'
 // import signup from './pages/Signup'
 import Signup from './pages/Signup'
 import AllRoutes from './Routes/AllRoutes'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
     <>
    <Navbar/>
    <AllRoutes/>
+   <Footer/>
      </>
   )
 }

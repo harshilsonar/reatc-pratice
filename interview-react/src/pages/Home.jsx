@@ -1,21 +1,23 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
     <div>
 
       {/* Hero Section */}
-      <section className="relative h-[100vh] pt-5">
+      <Link to="/necklaces">
+        <section className="relative h-[100vh] pt-5">
 
-        <img
-          src="/hero.png"
-          alt="Jewellery Banner"
-          className="w-full h-full object-cover"
-        />
+          <img
+            src="/hero.png"
+            alt="Jewellery Banner"
+            className="w-full h-full object-cover"
+          />
 
-        {/* Dark Overlay */}
-        {/* <div className="absolute inset-0 bg-black/50 flex items-center">
+          {/* Dark Overlay */}
+          {/* <div className="absolute inset-0 bg-black/50 flex items-center">
 
           <div className="max-w-7xl mx-auto px-8 text-white">
 
@@ -37,15 +39,14 @@ const Home = () => {
 
         </div> */}
 
-      </section>
+        </section> </Link>
 
-    <Link to="/goldjwellerey">    
-     <section className="relative h-[90vh]" style={{marginTop:"15px"}}>
-     <img src="/hero1.png" 
-        alt="gold Banner" 
-        className="w-full h-full mt- object-fit-cover "/>
-      </section></Link>
-
+      <Link to="/goldjwellerey">
+        <section className="relative h-[90vh]" style={{ marginTop: "10px" }}>
+          <img src="/hero1.png"
+            alt="gold Banner"
+            className="w-full h-full mt- object-fit-cover " />
+        </section></Link>
     </div>
   );
 };
