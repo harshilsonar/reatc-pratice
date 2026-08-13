@@ -81,125 +81,95 @@ function Navbar() {
           <div className="hidden lg:flex items-center gap-4">
 
             {/* ================= SEARCH ================= */}
+            <div className="relative flex items-center">
 
-            <div className="relative">
+              {!showSearch ? (
+                /* Search Icon */
+                <button
+                  onClick={() => setShowSearch(true)}
+                  className="w-11 h-11 rounded-full bg-gray-100 flex items-center justify-center hover:bg-yellow-700 hover:text-white transition-all duration-300 hover:rotate-12 shadow"
+                >
+                  <HiOutlineMagnifyingGlass size={22} />
+                </button>
+              ) : (
+                /* Search Input */
+                <div className="flex items-center w-[250px] bg-white rounded-full border border-[#d4af37] shadow-xl px-4">
 
-              <button
-                onClick={() => setShowSearch(!showSearch)}
-                className="w-11 h-11 rounded-full bg-gray-100 flex items-center justify-center hover:bg-yellow-700 hover:text-white transition-all duration-300 hover:scale-110 hover:rotate-12 shadow"
-              >
-                <HiOutlineMagnifyingGlass size={22} />
-              </button>
+                  <HiOutlineMagnifyingGlass
+                    size={22}
+                    className="text-[#b8860b]"
+                  />
 
+                  <input
+                    type="text"
+                    value={search}
+                    onChange={(e) => setSearch(e.target.value)}
+                    placeholder="Search jewellery..."
+                    autoFocus
+                    className="flex-1 px-3 py-3 outline-none bg-transparent text-gray-700"
+                  />
 
-              {/* Search Dropdown */}
+                  {/* Close Button */}
+                  <button
+                    onClick={() => {
+                      setShowSearch(false);
+                      setSearch("");
+                    }}
+                    className="text-gray-500 hover:text-red-500 text-xl transition"
+                  >
+                    ×
+                  </button>
 
-              {showSearch && (
-                <div className="absolute top-14 right-0 w-[420px] z-[100]">
+                </div>
+              )}
 
-                  {/* Search Input */}
+              {/* Search Results */}
 
-                  <div className="bg-white rounded-2xl shadow-2xl border border-[#d4af37] p-3">
+              {showSearch && search && (
+                <div className="absolute top-14 right-0 w-[420px] bg-white rounded-2xl shadow-2xl border border-gray-100 overflow-hidden z-[100]">
 
-                    <div className="flex items-center">
+                  {filteredProducts.length > 0 ? (
 
-                      <HiOutlineMagnifyingGlass
-                        size={22}
-                        className="text-[#b8860b] ml-3"
-                      />
+                    filteredProducts
+                      .slice(0, 6)
+                      .map((item) => (
 
-                      <input
-                        type="text"
-                        value={search}
-                        onChange={(e) => setSearch(e.target.value)}
-                        placeholder="Search jewellery..."
-                        autoFocus
-                        className="w-full px-4 py-3 outline-none text-gray-700 bg-transparent"
-                      />
+                        <Link
+                          key={`${item.category}-${item.id}`}
+                          to={`/product/${item.category}/${item.id}`}
+                          onClick={() => {
+                            setSearch("");
+                            setShowSearch(false);
+                          }}
+                          className="flex items-center gap-4 p-4 hover:bg-[#faf7ef] transition duration-300"
+                        >
 
-                    </div>
+                          <img
+                            src={item.images?.[0]}
+                            alt={item.title}
+                            className="w-14 h-14 object-contain"
+                          />
 
-                  </div>
+                          <div>
+                            <h3 className="text-sm font-medium text-gray-800">
+                              {item.title}
+                            </h3>
 
-
-                  {/* Search Results */}
-
-                  {search && (
-                    <div className="mt-2 bg-white rounded-2xl shadow-2xl border border-gray-100 overflow-hidden">
-
-                      {filteredProducts.length > 0 ? (
-
-                        filteredProducts
-                          .slice(0, 6)
-                          .map((item) => (
-
-                            <Link
-                              key={`${item.category}-${item.id}`}
-                              to={`/product/${item.category}/${item.id}`}
-                              onClick={() => {
-                                setSearch("");
-                                setShowSearch(false);
-                              }}
-                              className="flex items-center gap-4 p-4 hover:bg-[#faf7ef] transition duration-300"
-                            >
-
-                              {/* Product Image */}
-
-                              <div className="w-16 h-16 bg-[#faf8f3] rounded-xl flex items-center justify-center">
-
-                                <img
-                                  src={item.images?.[0]}
-                                  alt={item.title}
-                                  className="w-14 h-14 object-contain"
-                                />
-
-                              </div>
-
-
-                              {/* Product Information */}
-
-                              <div className="flex-1 min-w-0">
-
-                                <h3 className="text-sm font-medium text-gray-800 truncate">
-                                  {item.title}
-                                </h3>
-
-                                <p className="text-[#b8860b] font-semibold mt-1">
-                                  {item.price}
-                                </p>
-
-                              </div>
-
-
-                              <span className="text-gray-400 text-lg">
-                                →
-                              </span>
-
-                            </Link>
-
-                          ))
-
-                      ) : (
-
-                        <div className="p-7 text-center">
-
-                          <div className="text-3xl mb-2">
-                            ✨
+                            <p className="text-[#b8860b] font-semibold mt-1">
+                              {item.price}
+                            </p>
                           </div>
 
-                          <p className="text-gray-600 font-medium">
-                            No jewellery found
-                          </p>
+                        </Link>
 
-                          <p className="text-xs text-gray-400 mt-1">
-                            Try another product name
-                          </p>
+                      ))
 
-                        </div>
+                  ) : (
 
-                      )}
-
+                    <div className="p-6 text-center text-gray-500">
+                      No jewellery found
                     </div>
+
                   )}
 
                 </div>
@@ -267,11 +237,17 @@ function Navbar() {
             <Link to="/signin">
 
               <button
-                className="ml-2 px-6 py-2.5 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-700 text-white font-semibold shadow-lg hover:shadow-yellow-400/40 hover:scale-105 transition-all duration-300"
+                className="ml-2 px-6 py-2.5 rounded-full
+  bg-gradient-to-r from-yellow-500 to-yellow-700
+  text-white font-semibold
+  shadow-lg
+  hover:shadow-yellow-400/40
+  hover:-translate-y-1
+  transition-all duration-300
+  whitespace-nowrap"
               >
                 Sign In
               </button>
-
             </Link>
 
           </div>

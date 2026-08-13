@@ -44,7 +44,7 @@ const Wishlist = () => {
 
             {wishlist.length === 0 ? (
 
-                <div className="max-w-6xl mx-auto py-28 text-center">
+                <div className="max-w-9xl mx-auto py-28 text-center">
 
                     <div className="bg-white rounded-[40px] p-16 shadow-xl border border-[#efe2c5]">
 
